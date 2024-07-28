@@ -136,7 +136,7 @@ section {
   line-height: 1.8rem;
 }
 
-.menu .container-box {
+.container-box {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   gap: 1.5rem;
@@ -147,7 +147,6 @@ section {
   padding: 5rem;
   cursor: pointer;
 }
-
 
 .menu .container-box .box img {
   height: 10rem;
@@ -172,6 +171,56 @@ section {
 .menu .container-box .box:hover {
   background-color: var(--branco);
 }
-.menu .container-box .box:hover>* {
-  color:var(--black)
+.menu .container-box .box:hover > * {
+  color: var(--black);
 }
+
+.review .container-box .box {
+  text-align: center;
+  padding: 3rem 2rem;
+  border: var(--border);
+}
+.review .container-box .box p {
+  font-size: 1.6rem;
+  color: var(--branco);
+  padding: 2rem 0;
+  line-height: 1.8rem;
+}
+.review .container-box .box h3 {
+  font-size: 2rem;
+  color:var(--branco);
+  margin: 1rem 0;
+
+}
+.review .container-box .box .user {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.address {
+display: flex;
+align-items: center;
+flex-direction: column  ;
+
+}
+.footer {
+  background: var(--black);
+  color: var(--branco);
+  text-align: center;
+  padding: 2rem 0;
+} 
+.footer .share {
+ padding: 1rem 0;
+}
+.footer .share img {
+  margin: 0 1rem;
+  cursor: pointer;
+  border-radius: 50%;
+  padding: 1rem;
+}
+.footer .share img:hover {
+  background-color: var(--main-color);
+}
+
